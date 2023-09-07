@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <link rel="stylesheet" href="styes/css.css">
+</head>
+<body>
+    <main>
+
+        <h1 class="titulo">Selectores CSS por ID</h1>
+        <div class="cont-parrafos">
+            <p id="parrafo1" class="parrafo">Soy el parrafo 1 Before</p>
+            <p id="parrafo2" class="parrafo">Soy el parrafo 2 After</p>
+
+        </div>
+
+    
+
+        <div id="c-player">
+            <div id="player"></div>
+        </div>
+
+
+    </main>
+    <script>
+        const b1 = document.getElementById('parrafo1')
+        const b2 = document.getElementById('parrafo2')
+
+        b1.addEventListener('click', () => {
+            if(b1.classList.contains('before')){
+                b1.classList.remove('before')
+         
+            }else{
+                b1.classList.remove('after')
+                b1.classList.add('before')
+            }
+        })
+        b2.addEventListener('click', () => {
+           if(b2.classList.contains('after')){
+                b2.classList.remove('after')
+           }else{
+            b2.classList.remove('before')
+            b2.classList.add('after')
+           }
+        })
+        document.addEventListener('copy', () => {
+            alert('do not copy')
+        })
+
+        const Contplayer = document.getElementById('c-player')
+        const player = document.getElementById('player')
+
+        Contplayer.classList.add('left')
+        
+        document.addEventListener('keydown', (e) => {
+            let boton = e.key
+            if(boton == 'a'){
+                if(Contplayer.classList.contains('right')){
+                    Contplayer.classList.remove('right')
+                    Contplayer.classList.add('center')
+                
+                }else if(Contplayer.classList.contains('center')){
+                    Contplayer.classList.remove('center')
+                    Contplayer.classList.add('left')
+                }
+                
+            }else if(boton == 'w'){
+
+            }else if(boton == 'd'){
+                if(Contplayer.classList.contains('left')){
+                    Contplayer.classList.remove('left')
+                    Contplayer.classList.add('center')
+                
+                }else if(Contplayer.classList.contains('center')){
+                    Contplayer.classList.remove('center')
+                    Contplayer.classList.add('right')
+                }
+            }else if(boton == 's'){
+
+            }
+        })
+    </script>
+</body>
+</html>
