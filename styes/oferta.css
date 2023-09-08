@@ -1,0 +1,48 @@
+header {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #662481;
+}
+
+.titulo-header{
+    color: white;
+    font-size:xx-large;
+    font-weight: 700;
+}
+
+.contenido-section{
+    display: flex;
+    background-color: white;
+    display: flex;
+
+
+}
+
+.aside {
+    flex: 1;
+}
+
+.article-oferta{
+    flex: 5;
+    padding: 20px;
+}
+
+.article-oferta img {
+    max-width: 100%;
+    height: auto;
+}
+
+#lista {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lista-links {
+    font-size: 15px;
+    color: grey;
+
+}

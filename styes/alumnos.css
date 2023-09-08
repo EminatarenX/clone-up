@@ -1,0 +1,112 @@
+.section-alumnos {
+    display: flex;
+    background-color: white;
+    position: relative;
+}
+
+.aside-alumnos{
+    position: sticky;
+    top: 60px;
+    background-color: white;
+    height: 100vh;
+    flex: 1;
+}
+
+.aside-alumnos h2 {
+    color: white;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(190, 189, 189);
+    font-size: 18px;
+}
+
+.aside-alumnos ul li {
+    padding: 20px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    border-bottom: 1px rgb(199, 196, 196) solid;
+    transition: .4s ease all;
+    cursor: pointer;
+}
+
+.aside-alumnos ul li:hover{
+    color: rgb(212, 38, 38);
+    background-color: rgba(238, 238, 238, 0.733);
+}
+
+.article-alumnos {
+    flex: 4;
+}
+
+
+.alumnos-becas{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin: 0px 20px;
+}
+
+.titulo-becas {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(77, 77, 77);
+}
+
+.becas-lista{
+    margin: 20px;
+    list-style: none;
+}
+
+.becas-lista li {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.737);
+    background-color: rgb(73, 73, 73);
+    transition: all .4s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+.becas-lista li:hover {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.737);
+    background-color: rgb(35, 35, 35);
+}
+
+.biblioteca-section{
+    background-color: rgb(35, 35, 35);
+    padding:20px;
+    margin: 0px 20px; 
+}
+
+.biblioteca-section h2, .biblioteca-section p {
+    color: white;
+}
+
+.parrafo-blblioteca{
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+#tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabla tr th{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid rgba(128, 128, 128, 0.622);
+
+}
+
+

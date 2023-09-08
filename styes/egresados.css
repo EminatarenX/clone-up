@@ -1,0 +1,47 @@
+
+
+.alumnos-becas{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin: 0px 20px;
+    background-color: white;
+}
+
+.titulo-becas {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(77, 77, 77);
+}
+
+.becas-lista{
+    margin: 20px;
+    list-style: none;
+}
+
+.becas-lista li {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.737);
+    background-color: rgb(73, 73, 73);
+    transition: all .4s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+.becas-lista li:hover {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.737);
+    background-color: rgb(35, 35, 35);
+}
+
+.dos {
+    color: white;
+    background-color: rgb(55, 55, 55);
+}
