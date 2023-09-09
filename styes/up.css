@@ -65,6 +65,17 @@ ul.menu {
     background-color: #662481;
 }
 
+@media (max-width: 1000px) {
+    ul.menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0 20px 0;
+        background-color: #662481;
+    }
+}
+
 li.menu-item {
     display: inline-block;
 
