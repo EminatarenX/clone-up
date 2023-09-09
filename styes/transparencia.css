@@ -1,0 +1,102 @@
+.section-transparencia{
+    display: flex;
+}
+
+.contenedor-contenido-transparencia{
+    flex: 4;
+    background-color: white;
+}
+
+.aside-transparencia{
+    flex: 1;
+    background-color: white;
+}
+
+.titulo-aside{
+    color: white;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(190, 189, 189);
+    font-size: 18px;
+}
+
+.aside-transparencia ul li {
+    padding: 20px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    border-bottom: 1px rgb(199, 196, 196) solid;
+    transition: .4s ease all;
+    cursor: pointer;
+}
+
+.aside-transparencia ul li:hover{
+    color: rgb(212, 38, 38);
+    background-color: rgba(238, 238, 238, 0.733);
+}
+
+.alumnos-becas{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin: 0px 20px;
+}
+
+.titulo-marco {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(77, 77, 77);
+}
+
+.marco-lista{
+    margin: 20px;
+    list-style: none;
+}
+
+.marco-lista li {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.737);
+    background-color: rgb(73, 73, 73);
+    transition: all .4s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marco-lista li:hover {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.737);
+    background-color: rgb(35, 35, 35);
+}
+
+.dos{
+    background-color: rgb(30, 29, 29);
+}
+
+.dos h2 {
+    color: white;
+}
+
+.parrafos-programa{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 15px;
+    color: #1286D4;
+}
+
+.lista-transparencia-comite li p{
+    padding: 20px;
+    font-size: 15px;
+    color: #1286D4;
+    font-weight: 700;
+}
+
+.lista-transparencia-comite{
+    margin: 50px;
+    
+}

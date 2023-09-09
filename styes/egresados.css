@@ -1,4 +1,43 @@
+.contenedor-articulos-egresados{
+    flex: 5;
+}
+.contenedor-aside-contenido{
+    display: flex;
+}
 
+.aside-egresados{
+    background-color: white;
+    flex: 1;
+}
+
+.aside-egresados h2 {
+    padding: 20px;
+    background-color:#bcbbba;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.aside-lista-egresados{
+    list-style: none;
+
+}
+
+.aside-lista-egresados li {
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.375);
+    transition: all .4s ease;   
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: all .4s ease;
+    cursor: pointer;
+
+}
+
+.aside-lista-egresados li:hover {
+    color: rgb(202, 30, 30);
+}
 
 .alumnos-becas{
     display: flex;

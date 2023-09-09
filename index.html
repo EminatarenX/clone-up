@@ -103,6 +103,64 @@
                 <h3>11 de agosto de 2023</h3>
             </div>
         </section>
+        <section class="contenedor-alianzas">
+            <h2>Alianzas estrategicas</h2>
+            <div class="alianzas">
+                <div class="alianzas-inner">
+                    
+                    <img src="img/alianza-1.png" alt="alianza-1">
+                    <img src="img/alianza-2.png" alt="alianza-2">
+                    <img src="img/alianza-3.png" alt="alianza-3">
+                    <img src="img/alianza-4.png" alt="alianza-4">
+                    <img src="img/alianza-5.png" alt="alianza-5">
+                    <img src="img/alianza-6.png" alt="alianza-6">
+                    <img src="img/alianza-7.png" alt="alianza-7">
+                    <img src="img/alianza-8.png" alt="alianza-8">
+                    <img src="img/alianza-9.png" alt="alianza-9">
+                    <img src="img/alianza-10.png" alt="alianza-10">
+                </div>
+
+            </div>
+        </section>
+        <section class="sitios-de-interes">
+            <h2>Sitios de interes</h2>
+            <div class="parraos-interes">
+                <p>Toefl ITP</p>
+                <p>Toefl IBT</p>
+                <p>Red Conocer</p>
+                <p>Platinum</p>
+            </div>
+            <div class="parraos-interes">
+                <p>Comite de Tecnologia de Informacion y Comunicaciones</p>
+                <p>Unidad de Igualdad de Genero</p>
+            </div>
+            <div class="parraos-interes">
+                <p>Integridad Publica/Comite de Etica</p>
+                <p>Consejo de Calidad</p>
+                <p>Centro LABVIEW</p>
+            </div>
+            <div class="parraos-interes">
+                <p>Bolsa de Trabajo Academico</p>
+                <p>Seguimiento a Egresados</p>
+            </div>
+            <div class="parraos-interes">
+                <p>Encuesta de Satisfaccion de Asesorias</p>
+                <p>Encuesta de Satisfaccion de Tutorias</p> 
+            </div>
+            <div class="parraos-interes">
+                <p>Sistema de Gestion Integral</p>
+                <p>Evaluacion de Desempeño</p>
+                <p>Transparencia</p>
+            </div>
+            <div class="parraos-interes">
+                <p>Consejo Social</p>
+                <p>Solicitud de estancias y estadia a Empresas</p>
+                <p>Buzon de Quejas y Sugerencias</p>
+            </div>
+            <div class="parraos-interes">
+                <p>Festival Universitario</p>
+            </div>
+        </section>
         <footer class="footer">
             <li ><a class="aviso">Aviso de privacidad</a></li>
             <div class="contenedor-footer">
@@ -117,6 +175,15 @@
             </div>
         </footer>
     </main>
-    
+    <script>
+        const copiaAlianzaInner = document.querySelector('.alianzas-inner').cloneNode(true);
+        document.querySelector('.alianzas').appendChild(copiaAlianzaInner);
+
+        addEventListener('copy', (e) => {
+            e.preventDefault();
+            e.clipboardData.setData('text/plain', 'No copies perro');
+
+        })
+    </script>
 </body>
 </html>

@@ -26,6 +26,9 @@ function iniciarCarrusel() {
 }
 
 
+
+
 document.addEventListener("DOMContentLoaded", function() {
   iniciarCarrusel();
+
 });
